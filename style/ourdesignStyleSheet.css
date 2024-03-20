@@ -1,0 +1,50 @@
+#workflowSlider{
+  top:180px;
+  z-index:2;
+  width: 80%;
+  max-width: 850px;
+  overflow-x: scroll;
+  margin: 0 auto;
+  position: relative;
+  
+}
+#workflowSlider img{
+  width: 1600px; 
+  height: 450px
+}
+.workflowTitle{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: #bcc9ab;
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+}
+
+#LLMDiv{
+  top:220px;
+  overflow: hidden;
+  
+  
+}
+
+#imgRecDiv{
+  top:300px;
+ 
+}
+
+.bodyImg img{
+  width: 100%;
+  flex:1;
+  
+}
+
+
+@media only screen and (min-width:1000px){
+  .feedbackImg{
+      flex-direction:column !important;
+  }
+
+ 
+}
